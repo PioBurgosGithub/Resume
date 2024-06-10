@@ -52,12 +52,14 @@
     font-size: var(--size-sm);
     color: var(--clr-slate600);
     margin: 1rem 0;
+    text-align: justify;   /* just remove "justify to revert to original code */
 }
 
 .work__project-description2{
     font-size: var(--size-sm);
     color: var(--clr-slate400);
     margin-bottom: 1rem;
+    text-align: justify; /* just remove "justify to revert to original code */
 }
 
 .work__project-btn {
@@ -66,6 +68,12 @@
 
 .work__project-subtitle {
     display: none;
+}
+
+.work__list {
+    list-style: none;
+    text-align: justify;
+    padding: 0;
 }
 
 /* xs */
@@ -158,8 +166,6 @@
     .work__content4 {
         grid-area: content4;
     }
-
-
     
     /* .work__content5 {
         grid-area: content5;
@@ -168,10 +174,6 @@
     .work__content6 {
         grid-area: content6;
     } */
-
-   
-
-
 
     .work__project {
         padding: 0 1rem;
