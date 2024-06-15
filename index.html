@@ -33,7 +33,7 @@
               </li>
 
               <li>
-                <a class="header__resume btn" target="_blank" href="https://drive.google.com/file/d/1jZiCD2UeceOryKOWfvqY6OlOx2zJW7-f/view?usp=sharing">Resume</a>
+                <a class="header__resume btn" target="_blank" href="https://drive.google.com/file/d/1jZiCD2UeceOryKOWfvqY6OlOx2zJW7-f/view?usp=sharing">Resume</a> <!--Add Transcript of Record alongside with Resume-->
               </li>
             </ul>
 
@@ -105,7 +105,7 @@
             <h2 class="about__title">About</h2>
             <p class="about__description">
               I am a highly motivated and dedicated Bachelor of Science in Computer Science graduate 
-              from West Visayas State University, where I earned the Latin honor of Magna Cum Laude. 
+              from West Visayas State University, where I earned the <strong>Latin honor of Magna Cum Laude</strong>. 
               I am seeking a challenging <strong>Programming</strong> and <strong>Software Development</strong> position that allows me 
               to leverage my academic foundation and passion for technology.
             </p> <!--<strong> </strong>-->
@@ -133,12 +133,15 @@
                   <li class="about__list">CSS</li>
                   <li class="about__list">HTML</li>
                   <li class="about__list">ReactJS</li>
+                  <li class="about__list">NextJS</li>
                 </ul>
 
                 <ul class="about__ul">
-                  <li class="about__list">NextJS</li>
                   <li class="about__list">TailwindCSS</li>
                   <li class="about__list">Python</li>
+                  <li class="about__list">C++</li>
+                  <li class="about__list">MySQL</li>
+                  <li class="about__list">Firebase</li>
                 </ul>
             </div>
             
@@ -184,6 +187,21 @@
          </div>
             
           </div>
+         </section>
+
+         <section id="featured" class="featured container section">
+
+           <div class="featured__img-container"> <!--Will contain images and screenshots of the projects-->
+  
+              <div class="featured__img-wrapper">
+                <img 
+                  class="lazy loading"
+                  src="https://fakeimg.pl/1838x969"    
+                  data-src="" 
+                  alt="technologies used" 
+                />   <!-- to test lazy loading use different images Back_to_the_Future2.jpg -->
+              </div>
+            </div>
          </section>
 
 
@@ -302,17 +320,7 @@
                 />  
               </div>
 
-              <div class="featured__img-wrapper">
-                <img 
-                  class="lazy loading"
-                  src="https://fakeimg.pl/1920x928"    
-                  data-src="/13.location.png" 
-                  alt="location section" 
-                />  
-    
-              </div>
-
-
+            
               
 
               <div class="featured__img-wrapper">
@@ -349,6 +357,8 @@
 
         </section>
 
+
+
         <section class="work container section">
             <h2 class="work__title">Projects</h2>
             <p class="work__description">
@@ -379,10 +389,12 @@
                 </p>
                 
                 <p class="work__project-description2">
-                  The results show promising advancements, with the M3 segmentation model achieving 94.87% accuracy, 
-                  Maglione's classification module performing well, the distance measurement model reaching 89.12% accuracy, 
-                  the MC Position classification model achieving 78% accuracy, and the corticalization interruption 
-                  classification model achieving an impressive 97% accuracy.
+                  
+                  <ul class="work__list">
+                    <b>Contributions</b>
+                    <li>Front-End Developer</li>
+                    <li>Researcher</li>
+                  </ul>
                 </p>
                 <a class="btn work__project-btn" target="_blank" href="https://drive.google.com/file/d/1zsnvWZMm3lJwfmlyfNL2rywHPWe-U1OI/view?usp=sharing">Website</a>
               </div>
@@ -394,8 +406,8 @@
               <div class="work__img-wrapper work__image2">
                 <img 
                   class="lazy loading"  
-                  src="https://fakeimg.pl/351x240"  
-                  data-src="/binhi.png" 
+                  src="https://fakeimg.pl/1536x1319"  
+                  data-src="/hero_mobile.png" 
                   alt="Project 2" 
                  />
               </div>
@@ -407,60 +419,68 @@
                   The website contains six sections: Highlights, Discover BINHI (Archive Component), 
                   Mission and Vision, Graduated Startups, Timeline, and Messages. 
                   Each section provides specific information about BINHI's initiatives, achievements, and updates. 
+                
                 </p>
                 
                 <p class="work__project-description2">
                   Additionally, the website features a Content Management System (CMS) that allows users to 
                   create, edit, and delete articles, ensuring the site remains dynamic and up-to-date.
+              
+                  <ul class="work__list">
+                    <b>Contributions</b>
+                    <li>Front-End Developer</li>
+                    <li>Backend Developer</li>
+                  </ul>
                 </p>
                 <a class="btn work__project-btn" target="_blank" href="https://binhi.wvsu.edu.ph/">Website</a>
               </div>
   
   
                <!-- Project 3 -->
-               <h3 class="work__project-title">Python MP3/MP4 Downloader</h3>
+               <h3 class="work__project-title">WVSU-University Student Council Student Led Website</h3>
   
                <div class="work__img-wrapper work__image3">
                  <img 
                   class="lazy loading"  
-                  src="https://fakeimg.pl/351x240"  
-                  data-src="/placeholder.jpg" 
+                  src="https://fakeimg.pl/1536x1538"  
+                  data-src="/wvsu-usc.png" 
                   alt="Project 3" 
                  />
                </div>
    
                
                <div class="work__project work__content3">
-                <h3 class="work__project-subtitle">Python MP3/MP4 Downloader</h3>
+                <h3 class="work__project-subtitle">WVSU-University Student Council Student Led Website</h3>
                  <p class="work__project-description1">
-                    This open-source project is a user-friendly MP3 and MP4 downloader built with Python and Tkinter. It provides an easy-to-use graphical interface for downloading audio and video files from various sources.            
+                     It is a platform designed and maintained by students for students, our mission is to provide the latest information, resources, and support for the entire WVSU community.
                  </p>
                  
-                 <p class="work__project-description2">Tortor id aliquet lectus proin nibh nisl condimentum id venenatis. Tincidunt tortor aliquam nulla facilisi cras fermentum.
-                    Bibendum enim facilisis gravida neque.
+                 <p class="work__project-description2">
+                  <ul class="work__list">
+                    <b>Contributions</b>
+                    <li>Backend Developer</li>
+                  </ul>
                  </p>
-                 <a class="btn work__project-btn" target="_blank" href="#">Website</a>
+                 <a class="btn work__project-btn" target="_blank" href="https://wvsu-usc.org/">Website</a>
                </div>
   
                <!-- Project 4 -->
-               <h3 class="work__project-title">Python Data Scraper</h3>
+               <h3 class="work__project-title">Python MP3/MP4 Downloader</h3>
   
                <div class="work__img-wrapper work__image4">
                  <img 
                   class="lazy loading"  
                   src="https://fakeimg.pl/351x240"  
-                  data-src="/placeholder.jpg" 
+                  data-src="/hero_mobile.png" 
                   alt="Project 4" 
                  />
                </div>
    
                
                <div class="work__project work__content4">
-                <h3 class="work__project-subtitle">Python Data Scraper</h3>
+                <h3 class="work__project-subtitle">Python MP3/MP4 Downloader</h3>
                  <p class="work__project-description1">
-                  This is a powerful and flexible open-source web scraping tool built using Python. 
-                  It allows users to extract data from websites effortlessly, providing an easy-to-use 
-                  interface for specifying the data to be scraped and the structure in which it should be stored.   
+                  This open-source project is a user-friendly MP3 and MP4 downloader built with Python and Tkinter. It provides an easy-to-use graphical interface for downloading audio and video files from various sources.  
                 </p>
                  
                  <!-- <p class="work__project-description2">
@@ -548,9 +568,9 @@
               
               <p class="work__project-description2">
                 <ul class="work__list">
-                  <li>Issued: April 2024 </li>
-                  <li>Expires: April 2027</li>
-                  <li>Credential ID: 2404NA9431</li>
+                  <li><b>Issued: </b> April 2024 </li>
+                  <li><b>Expires: </b>April 2027</li>
+                  <li><b>Credential ID: </b>2404NA9431</li>
                 </ul>
               </p>
               </div>
@@ -577,9 +597,9 @@
               
               <p class="work__project-description2">
                 <ul class="work__list">
-                  <li>Issued: April 2024 </li>
-                  <li>Expires: April 2027</li>
-                  <li>Credential ID: 2404RE9578</li>
+                  <li><b>Issued: </b>April 2024 </li>
+                  <li><b>Expires: </b>April 2027</li>
+                  <li><b>Credential ID: </b>2404RE9578</li>
                 </ul>  
               </p>
             </div>
@@ -606,9 +626,9 @@
               
               <p class="work__project-description2">
                 <ul class="work__list">
-                  <li>Issued: April 2024 </li>
-                  <li>Expires: April 2027</li>
-                  <li>Credential ID: 2404UME9489</li>
+                  <li><b>Issued: </b>April 2024 </li>
+                  <li><b>Expires: </b>April 2027</li>
+                  <li><b>Credential ID: </b>2404UME9489</li>
                 </ul> 
               </p>
             </div>

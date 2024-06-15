@@ -76,6 +76,13 @@
     padding: 0;
 }
 
+/* .work__img__project{
+    width: 504px;
+    height: 504px;
+    object-fit: cover;
+    object-position: center; 
+} */
+
 /* xs */
 @media (min-width: 475px) {
     .work__title{
@@ -104,7 +111,8 @@
     .work__project-btn {
         font-size: var(--size-base);
     }
-    
+
+  
     
     
 }
@@ -204,7 +212,7 @@
         font-size: var(--size-base)
     }
 
-
+    
     
 }
 
